@@ -1,0 +1,7 @@
+FROM node:14-slim
+MAINTAINER tyza66
+WORKDIR /app
+COPY . .
+RUN npm install
+RUN npm install --save axios tim-upload-plugin tweblive
+CMD ["npm","start"]
