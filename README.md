@@ -19,7 +19,6 @@ npm start
 ##### Docker容器
 ```
 docker build --pull --rm -f "DockerFile" -t secretchatroom:[版本号] "." 
-
 ```
 
 By:tyza66(洮羱芝闇)
